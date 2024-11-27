@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+#logo-principal {
+    width: 200px;
+    
+}
+
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: grey;
+    
+
+}
+
+ul{
+    display: flex;
+    list-style-type:none;
+    font-size: 20px;
+    
+}
+
+h2{
+    margin: 20px 0px;
+    background-color: grey; 
+}
+
+#mas-vendidos{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+    padding: 12px 0px; 
+}
+
+#nuevos{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 12px 0px; 
+}
+
+#ofertones{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 12px 0px; 
+}
+
+#mas-buscados{
+    width: 200px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 12px 0px; 
+}
+
+
+footer{
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+}
+
+ div{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+section{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+article{
+  border: 3.5px solid grey;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form{
+    display: flex;
+}
+
+input{
+    font-size:16px;
+    padding: 7px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+input:focus-visible{
+
+    outline: none;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    background-color: white;  
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+}
+
+#logo{
+    width: 180px;
+
+}
+li{
+    margin-left: 70px;
+   
+    
+    
+}
+
+li{
+    transition: all 200ms;
+}
+
+li:hover{
+   background-color: white;
+   color:black;
+   padding: 5px;
+   border-radius: 5px;
+
+}
+
+.imagen-carro{
+   width : 300px;
+}
+
+article:hover{
+    box-shadow: 0 5px 10px orangered;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+    
